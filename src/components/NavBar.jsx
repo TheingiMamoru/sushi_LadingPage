@@ -2,9 +2,9 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div className='sticky top-0'>
+    <div className='sticky top-0 z-20'>
         <nav className="bg-bodyCol px-2 sm:px-4 py-2.5 rounded ">
-            <div className="container flex flex-wrap items-center justify-between mx-auto">
+            <div className="flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://flowbite.com/" className="flex items-center">
                     <img src="../src/assets/img/logo.png" className="h-6 mr-3 sm:h-8"/>
                     <span className="self-center text-xl max-w-[375px]:text-lg font-Lora font-semibold whitespace-nowrap">Sushi</span>
