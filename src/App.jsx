@@ -8,7 +8,7 @@ import Recently from './pages/Recently'
 
 const App = () => {
   return (
-    //bg-color => didn't work
+    
     <div className='bg-bodyCol m-0 p-0'>  
       <div className='container max-w-screen-lg mx-auto'>
         <NavBar/>
