@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import AboutUs from './pages/AboutUs'
 import Home from './pages/Home'
@@ -17,6 +18,8 @@ const App = () => {
         <Popular/>
         <Recently/>
         <NewsLetter/>
+        <Footer/>
+        
       </div>
     </div>
   )
