@@ -25,10 +25,10 @@ const Recently = () => {
                 </button>
             </div>
         </div>
-        <img className='absolute w-20 bottom-[300px] -left-4 opacity-50 md:w-32 md:-left-[180px] md:bottom-[60px]' src="../src/assets/img/leaf-branch-2.png" alt="" />
-        <img className='absolute w-10 bottom-[200px] -right-4 -rotate-[20deg] opacity-50 md:w-20 md:bottom-[300px] md:-right-[175px] md:-rotate-[25deg] ' src="../src/assets/img/leaf-branch-3.png" alt="" />
+        <img className='absolute w-20 bottom-[200px] -left-4 opacity-50 md:hidden' src="../src/assets/img/leaf-branch-2.png" alt="" />
+        <img className='absolute w-10 bottom-[200px] -right-4 -rotate-[20deg] opacity-50 md:hidden' src="../src/assets/img/leaf-branch-3.png" alt="" />
     </div>
   )
 }
 
-export default Recently
+export default Recently 

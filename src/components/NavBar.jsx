@@ -4,7 +4,7 @@ import {BsArrowUp} from 'react-icons/bs'
 
 const NavBar = () => {
   return (
-    <div>
+    <div className='relative'>
         <div className='sticky top-0 z-20'>
             <nav className="bg-bodyCol px-2 sm:px-4 py-2.5 rounded ">
                 <div className="flex flex-wrap items-center justify-between mx-auto">
@@ -46,7 +46,10 @@ const NavBar = () => {
         <button className='fixed bottom-9 right-3 text-orange bg-fullCol p-2 z-20 '>
             <BsArrowUp/>
         </button>
+        <img className='absolute opacity-50 -rotate-[15deg] w-16 right-5 top-[1030px] lg:right-5 lg:top-[680px] lg:w-32 md:w-20 md:right-5 md:top-[650px] sm:w-20 sm:right-5 sm:top-[1100px]' src="../src/assets/img/leaf-branch-1.png" alt="" />
+        
     </div>
+    //need to add more leaf-branch
   )
 }
 
